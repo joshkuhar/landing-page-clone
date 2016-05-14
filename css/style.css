@@ -1,11 +1,17 @@
 body {
 	backround-color: #d3d3d3;
 }
-p {
-	font: bold italic large;
-	text-align: center;
-	font-size: 25px;
-}
+
 div {
 	border: 1px solid Chocolate;
+}
+
+.top-navigation {
+	background-color: #fff;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
 }
