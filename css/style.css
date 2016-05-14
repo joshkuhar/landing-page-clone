@@ -1,0 +1,11 @@
+body {
+	backround-color: #d3d3d3;
+}
+p {
+	font: bold italic large;
+	text-align: center;
+	font-size: 25px;
+}
+div {
+	border: 1px solid Chocolate;
+}
