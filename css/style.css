@@ -1,3 +1,10 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
 	backround-color: #d3d3d3;
 }
@@ -24,13 +31,24 @@ div {
 
 .top-navigation .links {
 	float: right;
-	margin-top: 2.3rem;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
-	letter-spacing: 0.03;
+	margin-top: 2.3rem;
+	-webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 500;
 }
 
 .top-navigation .links li {
 	display: inline-block;
+	margin-left: 2rem;
+}
+
+.top-navigation .links li:hover {
+	cursor: pointer;
+	color: #333333;
 }
