@@ -8,10 +8,17 @@ div {
 
 .top-navigation {
 	background-color: #fff;
+
 }
 
 .top-navigation > .content {
-	width: 970px;
-	height: 70px;
+	width: 62rem;
+	height: 6rem;
 	margin: 0 auto;
+}
+
+.content > img {
+	margin-left: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
