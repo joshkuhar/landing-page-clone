@@ -118,6 +118,9 @@ div {
     text-align:center;
 }
 
+.fa {
+    display: inline-block;
+}
 .widget img {
     display:block;
     margin:0 auto;
@@ -126,6 +129,17 @@ div {
 button:hover {
     background-color: #f55b59;
     cursor: pointer;
+}
+
+.icons {
+    margin: auto 0;
+}
+
+.icons li {
+    width: 3.5em;
+    height: 4em;
+    display: inline-block;
+    margin: auto 0;
 }
 
 button {
