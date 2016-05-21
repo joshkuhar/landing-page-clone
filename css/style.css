@@ -118,28 +118,9 @@ div {
     text-align:center;
 }
 
-.fa {
-    display: inline-block;
-}
 .widget img {
     display:block;
     margin:0 auto;
-}
-
-button:hover {
-    background-color: #f55b59;
-    cursor: pointer;
-}
-
-.icons {
-    margin: auto 0;
-}
-
-.icons li {
-    width: 3.5em;
-    height: 4em;
-    display: inline-block;
-    margin: auto 0;
 }
 
 button {
@@ -156,12 +137,51 @@ button {
     margin: 0 auto;
 }
 
-footer {
-    border-top:1px solid #eaeaea;
-    margin:50px 0;
+button:hover {
+    background-color: #f55b59;
+    cursor: pointer;
 }
 
-footer p {
-    text-align:center;
-    padding-top:50px;
+.social {
+    border-top:1px solid #eaeaea;
+    margin: 0 auto;
+    width: 500px;
 }
+
+.content1 {
+    width: 500px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.bottomText {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: lighter;
+}
+.icons {
+    width: 300px;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.icons li {
+    width: 2em;
+    height: 2em;    
+    padding-top: .5em;
+    padding-bottom: .5em;
+    display: inline-block;
+    border: solid 1px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+
+
